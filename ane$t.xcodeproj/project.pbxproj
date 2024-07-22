@@ -6,10 +6,25 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		2AC59C3E2C4D0BAA0089A9A2 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		2AC59C3F2C4D0BCC0089A9A2 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		2AC59C402C4D0BDD0089A9A2 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		2AC59C412C4D0DE50089A9A2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		2AC59C422C4D0DE50089A9A2 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
+		2AC59C432C4D3FAF0089A9A2 /* animation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = animation.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		2AC59C372C4D0B800089A9A2 = {
 			isa = PBXGroup;
 			children = (
+				2AC59C402C4D0BDD0089A9A2 /* main.css */,
+				2AC59C3E2C4D0BAA0089A9A2 /* index.html */,
+				2AC59C432C4D3FAF0089A9A2 /* animation.js */,
+				2AC59C422C4D0DE50089A9A2 /* icon-512.png */,
+				2AC59C412C4D0DE50089A9A2 /* manifest.json */,
+				2AC59C3F2C4D0BCC0089A9A2 /* main.js */,
 			);
 			sourceTree = "<group>";
 		};

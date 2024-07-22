@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ANE$$$$ </title>
+		<meta charset="UTF-8">
+			<link rel="manifest" href="./manifest.json" />
+			<link rel="stylesheet" href="./main.css">
+				<!-- ... -->
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					
+					<!-- Meta Description -->
+					<meta name="description" content="This is a work in progress, to provide $$ satisfaction to workers.">
+						
+						<!-- Open Graph Meta Tags -->
+						<meta property="og:title" content="see the $$ go into your account">
+							<meta property="og:description" content="This is a work in progress, to provide $$ satisfaction to workers.">
+								<meta property="og:image" content="./icon-512.png">
+									<meta property="og:type" content="website">
+										<meta property="og:url" content="https://kv2000inn.ddns.net:65001/ane$t/index.html">
+											
+											
+											</head>
+	<body oncontextmenu="return false;">
+
+		<!-- START OF FLIP EXAMPLE PRESET -->
+		
+		<style>
+			.container { margin: 150px auto; max-width: 960px; }
+			.tick {
+				font-size:1rem;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			}
+		
+		.tick-label {
+			font-size:.375em;
+			text-align:center;
+		}
+		
+		.tick-group {
+			margin:0 .25em;
+			text-align:center;
+		}
+		</style>
+        <button id="toggleSoundButton">Sound ON</button>
+        <div class="container"><h1> <button id ="h1button" onclick="letitrain();">Let it rain $$$ </button>  </h1>
+			<div class="tick"
+				data-did-init="handleTickInit">
+				
+<!--                <div class="tick" id="tickerdiv">-->
+				<div data-repeat="true"
+					data-layout="horizontal center fit"
+					data-transform="preset(d, h, m, s) -> delay">
+					
+					<div class="tick-group">
+						
+						<div data-key="value"
+							data-repeat="true"
+							data-transform="pad(00) -> split -> delay">
+							
+							<span data-view="flip"></span>
+							
+						</div>
+						
+						<span data-key="label"
+							data-view="text"
+							class="tick-label"></span>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+            
+         <div class="bucket-container">
+    <object type="image/svg+xml" data="wallet.svg" alt="Wallet" class="wallet"></object>
+    </div>    
+		</div>
+		<script>
+			function handleTickInit(tick) {
+				
+					// Uncomment to set labels to different language ( in this case Dutch )
+					/*
+					 var locale = {
+					 YEAR_PLURAL: 'Jaren',
+					 YEAR_SINGULAR: 'Jaar',
+					 MONTH_PLURAL: 'Maanden',
+					 MONTH_SINGULAR: 'Maand',
+					 WEEK_PLURAL: 'Weken',
+					 WEEK_SINGULAR: 'Week',
+					 DAY_PLURAL: 'Dagen',
+					 DAY_SINGULAR: 'Dag',
+					 HOUR_PLURAL: 'Uren',
+					 HOUR_SINGULAR: 'Uur',
+					 MINUTE_PLURAL: 'Minuten',
+					 MINUTE_SINGULAR: 'Minuut',
+					 SECOND_PLURAL: 'Seconden',
+					 SECOND_SINGULAR: 'Seconde',
+					 MILLISECOND_PLURAL: 'Milliseconden',
+					 MILLISECOND_SINGULAR: 'Milliseconde'
+					 };
+					 
+					 for (var key in locale) {
+					 if (!locale.hasOwnProperty(key)) { continue; }
+					 tick.setConstant(key, locale[key]);
+					 }
+					 */
+					
+					/*var nextYear = (new Date()).getFullYear() + 1;
+					
+					Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+						tick.value = value;*/
+                    Tick.count.up(new Date()).onupdate = function(value) {
+						tick.value = value;    
+					};
+					
+			}
+		</script>
+		
+		<!-- END OF FLIP EXAMPLE PRESET -->
+		
+		<script src="main.js"></script>
+        <script src="animation.js"></script>
+
+<!--    <div class="container">
+        <svg id="dollarSign" width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" font-size="80" font-family="Arial" fill="black">$</text>
+        </svg>
+    </div>-->
+        
+   
+    <audio id="coinSound" src="coin-sound.mp3" preload="auto"></audio>   
+        
+	</body>
+</html>
